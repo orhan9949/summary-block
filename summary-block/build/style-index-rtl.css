@@ -1,0 +1,54 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.summary-block {
+  border-radius: 10px;
+  background: var(--content-bg-darken);
+  padding: 24px 32px;
+}
+
+.summary-block__title {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+  color: var(--text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  border-bottom: 2px solid #0080C8;
+}
+
+.summary-block__description,
+.summary-block__description * {
+  color: var(--text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+.summary-block__description li::before {
+  content: none !important;
+}
+
+.summary-block__description ul {
+  margin: 0 !important;
+  padding: 0;
+  list-style: none;
+}
+
+.summary-block__description li {
+  padding: 0 !important;
+}
+
+.summary-block__description {
+  margin-top: 20px;
+}
